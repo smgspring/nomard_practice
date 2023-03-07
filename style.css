@@ -1,61 +1,69 @@
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 200vh;
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
+body {
+  background-color: #f6f6f6;
+  padding: 50px 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+}
 header {
   display: flex;
-  font-size: 50px;
-  font-weight: bolder;
-  margin-top: 42px;
-  margin-bottom: 50px;
+  height: 90px;
+  justify-content: space-between;
+  align-items: end;
+  border-bottom: black solid 2px;
+  padding-bottom: 10px;
 }
-.box-father {
+.header-span:first-child {
+  font-size: 100px;
+  font-weight: bold;
+}
+.header-span:last-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-div {
   display: flex;
-  width: 100vh;
-  height: 100vh;
-  flex-wrap: wrap;
-  justify-content: center;
+  height: 90px;
+  justify-content: space-between;
+  margin-top: 20px;
 }
-.box {
-  width: 225px;
-  height: 383px;
-  margin: 28px 18px;
-  border: 3px solid white;
-  position: relative;
-}
-.box:nth-child(1) {
-  background-color: tomato;
-}
-.box:nth-child(2) {
-  background-color: teal;
-}
-.box:nth-child(3) {
-  background-color: burlywood;
-}
-.box:nth-child(4) {
-  background-color: thistle;
-}
-.box-position {
-  width: 225px;
-  height: 100px;
-  background-color: white;
-  position: absolute;
-  top: 15px;
+.main-span {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-}
-span:nth-child(odd) {
-  font-size: larger;
-  font-weight: bolder;
-}
-span:nth-child(even) {
-  font-size: medium;
+  font-size: 10px;
   font-weight: bold;
+}
+.main-span span {
+  margin-bottom: 3px;
+}
+.main-span:nth-child(2) {
+  position: relative;
+  left: -130px;
+}
+.content-circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+#f-line {
+  background-color: #bce1f2;
+}
+#s-line {
+  background-color: #606365;
+}
+#t-line {
+  background-color: #01a464;
 }
