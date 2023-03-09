@@ -1,0 +1,34 @@
+.nav-bar {
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: #ffd7ff;
+}
+.nav-bar__text {
+  font-size: 60px;
+}
+.box-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-form {
+  position: absolute;
+  top: -680px;
+  background-color: #ffbaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 400px;
+  height: 20px;
+}
+.search-form__input {
+  border: 0;
+  outline: none;
+  background-color: #ffbaff;
+  width: 80%;
+}

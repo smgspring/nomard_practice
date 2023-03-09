@@ -3,18 +3,124 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="white-box">Ostrich</div>
-    <div class="green-box">Ostrich</div>
-    <div class="red-box">Ostrich</div>
-    <div class="mixed-box">
-      <div class="box__pink-box">Ostrich</div>
-      <div class="box__blue-box">Ostrich</div>
-      <div class="box__yellow-box">Ostrich</div>
-      <div class="box__boldpink-box">Ostrich</div>
+    <header class="nav-bar">
+      <span class="nav-bar__first-icon"><i class="fas fa-bars"></i></span>
+      <span class="nav-bar__text">해둥갤러리</span>
+      <span class="nav-bar__second-icon"
+        ><i class="fas fa-shopping-cart"></i
+      ></span>
+    </header>
+    <div class="box-form">
+      <form class="search-form">
+        <input
+          class="search-form__input"
+          type="text"
+          placeholder="Search this"
+        />
+        <a class="search-form__icon" href="#"><i class="fas fa-search"></i></a>
+      </form>
+    </div>
+    <div class="main-div">
+      <div class="main-div__title">Today's Best 둥토</div>
+      <div class="main-div__contents">
+        <div class="main-div__contents__box">
+          <img class="main-div__contents__box__img" src="img/today-best.jpeg" />
+        </div>
+        <div class="main-div__contents__contents">
+          <div class="main-div__contents__contents__top">
+            <span class="main-div__contents__contents__top__title"
+              >세종로: 둥토</span
+            >
+            <span class="main-div__contents__contents__top__subtitle"
+              >자연스러움</span
+            >
+            <div class="main-div__contents__contents__top__stars star-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="main-div__contents__contents__bot">
+            <div class="main-div__contents__contents__bot__icon">
+              <i class="fas fa-thumbs-up"></i>
+            </div>
+            <div class="main-div__contents__contents__bot__button">
+              <a
+                class="main-div__contents__contents__bot__button__text"
+                href="#"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub-div">
+      <div class="sub-div__title">Weekly Best 둥토</div>
+      <div class="sub-div__box">
+        <div class="sub-div__box__img">
+          <img class="sub-div__box__img-img" src="img/green.jpeg" />
+          <div class="star-rating sub-div__box__img-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="sub-div__box__img">
+          <img class="sub-div__box__img-img" src="img/flower.jpeg" />
+          <div class="star-rating sub-div__box__img-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="sub-div__box__img">
+          <img class="sub-div__box__img-img" src="img/dog.jpeg" />
+          <div class="star-rating sub-div__box__img-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-div">
+      <div class="bottom-div__title">Popular Maker</div>
+      <div class="bottom-div__contents">
+        <div class="bottom-div__contents__box">
+          <img class="bottom-div__contents__box__img" src="img/maker.jpeg" />
+        </div>
+        <div class="bottom-div__contents__contents">
+          <div class="bottom-div__contents__contents__top">
+            Shin <br />Mingyeom
+          </div>
+          <div class="bottom-div__contents__contents__bot">
+            명품 사진노예 <br />
+            2023.03.09 - at semideungto gallery.
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
