@@ -12,115 +12,128 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="nav-bar">
-      <span class="nav-bar__first-icon"><i class="fas fa-bars"></i></span>
-      <span class="nav-bar__text">해둥갤러리</span>
-      <span class="nav-bar__second-icon"
-        ><i class="fas fa-shopping-cart"></i
-      ></span>
-    </header>
-    <div class="box-form">
-      <form class="search-form">
-        <input
-          class="search-form__input"
-          type="text"
-          placeholder="Search this"
-        />
-        <a class="search-form__icon" href="#"><i class="fas fa-search"></i></a>
-      </form>
-    </div>
-    <div class="main-div">
-      <div class="main-div__title">Today's Best 둥토</div>
-      <div class="main-div__contents">
-        <div class="main-div__contents__box">
-          <img class="main-div__contents__box__img" src="img/today-best.jpeg" />
-        </div>
-        <div class="main-div__contents__contents">
-          <div class="main-div__contents__contents__top">
-            <span class="main-div__contents__contents__top__title"
-              >세종로: 둥토</span
-            >
-            <span class="main-div__contents__contents__top__subtitle"
-              >자연스러움</span
-            >
-            <div class="main-div__contents__contents__top__stars star-rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-          </div>
-          <div class="main-div__contents__contents__bot">
-            <div class="main-div__contents__contents__bot__icon">
-              <i class="fas fa-thumbs-up"></i>
-            </div>
-            <div class="main-div__contents__contents__bot__button">
-              <a
-                class="main-div__contents__contents__bot__button__text"
-                href="#"
-                >Buy Now</a
+    <section class="section-main">
+      <div class="main-status status-bar">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="main-profile">
+        <img class="main-profile-box-img" src="img/juice-world.jpg" />
+      </div>
+      <div class="main-title title-text">
+        <span class="title-text-bold">Juice World, The Creator</span>
+        <span class="title-text-sub">Rap, Hip-Hop</span>
+      </div>
+      <div class="main-button">
+        <a class="main-button-black" href="#">Shuffle</a>
+        <a class="main-button-heart" href="#"
+          ><i class="fas fa-heart"></i
+          ><span class="main-button-heart-text">212 971</span></a
+        >
+      </div>
+      <div class="main-list">
+        <ul class="main-list-ul">
+          <li class="main-list-box">
+            <img class="main-list-box-img" src="img/empty.jpg" />
+            <div class="main-list-box-text">
+              <span class="main-list-box-text-grey"
+                >Juice World, The Creator</span
               >
+              <span class="main-list-box-text-black">EMPTY</span>
             </div>
-          </div>
+            <i class="fas fa-ellipsis-v main-list-box-text-icon"></i>
+          </li>
+          <li class="main-list-box">
+            <img class="main-list-box-img" src="img/legends.jpg" />
+            <div class="main-list-box-text">
+              <span class="main-list-box-text-grey"
+                >Juice World, The Creator</span
+              >
+              <span class="main-list-box-text-black">LEGENDS</span>
+            </div>
+            <i class="fas fa-ellipsis-v main-list-box-text-icon"></i>
+          </li>
+          <li class="main-list-box">
+            <img class="main-list-box-img" src="img/wishing-well.jpg" />
+            <div class="main-list-box-text">
+              <span class="main-list-box-text-grey"
+                >Juice World, The Creator</span
+              >
+              <span class="main-list-box-text-black">WISHING WELL</span>
+            </div>
+            <i class="fas fa-ellipsis-v main-list-box-text-icon"></i>
+          </li>
+          <li class="main-list-box">
+            <img class="main-list-box-img" src="img/lucid-dreams.jpg" />
+            <div class="main-list-box-text">
+              <span class="main-list-box-text-grey"
+                >Juice World, The Creator</span
+              >
+              <span class="main-list-box-text-black">LUCID DREAMS</span>
+            </div>
+            <i class="fas fa-ellipsis-v main-list-box-text-icon"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="main-button-bottom">
+        <div class="main-button-bottom-text">
+          <span class="main-button-bottom-text-grey">Juice World</span>
+          <span class="main-button-bottom-text-white">Wishing Well</span>
+        </div>
+        <div class="main-button-bottom-iconbox">
+          <a class="main-button-bottom-iconbox-icon" href="#"
+            ><i class="fas fa-step-backward fa-xs"></i
+          ></a>
+          <a class="main-button-bottom-iconbox-icon" href="#"
+            ><i class="fas fa-pause fa"></i
+          ></a>
+          <a class="main-button-bottom-iconbox-icon" href="#"
+            ><i class="fas fa-step-forward fa-xs"></i
+          ></a>
         </div>
       </div>
-    </div>
-    <div class="sub-div">
-      <div class="sub-div__title">Weekly Best 둥토</div>
-      <div class="sub-div__box">
-        <div class="sub-div__box__img">
-          <img class="sub-div__box__img-img" src="img/green.jpeg" />
-          <div class="star-rating sub-div__box__img-icon">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
+    </section>
+    <section class="section-main">
+      <div class="main-status status-bar">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+      <div class="second-section-photobox">
+        <img class="second-section-photobox-photo" src="img/wishing-well.jpg" />
+      </div>
+      <div class="second-section-title title-text">
+        <span class="title-text-bold">Wishing Well</span>
+        <span class="title-text-sub">Juice World, The Creator</span>
+      </div>
+      <div class="second-section-musicbar">
+        <div class="second-section-musicbar-text">
+          <span class="second-section-musicbar-text-first">1:18</span>
+          <span class="second-section-musicbar-text-second">2:08</span>
         </div>
-        <div class="sub-div__box__img">
-          <img class="sub-div__box__img-img" src="img/flower.jpeg" />
-          <div class="star-rating sub-div__box__img-icon">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-        </div>
-        <div class="sub-div__box__img">
-          <img class="sub-div__box__img-img" src="img/dog.jpeg" />
-          <div class="star-rating sub-div__box__img-icon">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
+        <div>
+          <input class="second-section-musicbar-bar" type="range" />
         </div>
       </div>
-    </div>
-
-    <div class="bottom-div">
-      <div class="bottom-div__title">Popular Maker</div>
-      <div class="bottom-div__contents">
-        <div class="bottom-div__contents__box">
-          <img class="bottom-div__contents__box__img" src="img/maker.jpeg" />
-        </div>
-        <div class="bottom-div__contents__contents">
-          <div class="bottom-div__contents__contents__top">
-            Shin <br />Mingyeom
-          </div>
-          <div class="bottom-div__contents__contents__bot">
-            명품 사진노예 <br />
-            2023.03.09 - at semideungto gallery.
-          </div>
-        </div>
+      <div class="second-section-bottom">
+        <a class="second-section-bottom-icon" href="#"
+          ><i class="fas fa-redo-alt fa-xs"></i
+        ></a>
+        <a class="second-section-bottom-icon" href="#"
+          ><i class="fas fa-step-backward fa-sm"></i
+        ></a>
+        <a class="second-section-bottom-icon white-box-icon" href="#"
+          ><i class="fas fa-play fa-lg"></i>
+        </a>
+        <a class="second-section-bottom-icon" href="#"
+          ><i class="fas fa-step-forward fa-sm"></i
+        ></a>
+        <a class="second-section-bottom-icon" href="#"
+          ><i class="fas fa-random fa-xs"></i
+        ></a>
       </div>
-    </div>
+    </section>
   </body>
 </html>

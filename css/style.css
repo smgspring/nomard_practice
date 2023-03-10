@@ -1,0 +1,30 @@
+@import url(component.css);
+@import url(first-section.css);
+@import url(second-section.css);
+@font-face {
+  font-family: "establishRetrosansOTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "establishRetrosansOTF";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #92a6a31c;
+  padding: 50px 10px;
+}
+.section-main {
+  width: 370px;
+  height: 770px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 10px black;
+  display: flex;
+  flex-direction: column;
+}
